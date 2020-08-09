@@ -6,7 +6,7 @@
   "scripts": {
     "run-all": "npm-run-all --parallel compile:sass live-server",
     "compile:sass": " node-sass sass/main.scss css/style.css -w",
-    "live-server": "npx live-server --port=8001",
+    "live-server": "npx live-server --port=8004",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
